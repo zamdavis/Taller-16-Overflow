@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+  }
+  
+  header {
+    border: 2px black solid;
+    max-height: 100px;
+    overflow: scroll;
+  }
+
+  header h1 {
+    width: 200%;
+  }
+  
+  section {
+    height: 300px;
+  }
+  
+  article {
+    width: 50%;
+    height: 250px;
+    float: left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  
+  }
+  
+  article:first-child {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  footer {
+    overflow: hidden;
+  }
+  
+  footer p {
+    white-space: nowrap;
+  }
